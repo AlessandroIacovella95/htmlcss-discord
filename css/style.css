@@ -2,6 +2,7 @@
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +11,7 @@ body{
 
 img{
     max-width: 100%;
+    margin:25px 0;
 }
 
 /* utils */
@@ -51,12 +53,10 @@ footer{
 /* sezioni  */
 
 section{
-    min-height: 400px;
     min-width:1000px;   
 }
 
 .big-section{
-    min-height: 600px;
     min-width: 1000px;
 }
 
@@ -77,14 +77,12 @@ section{
 }
 
 .container-normal{
-    min-height: 350px;
     width: 900px;
 }
 
 .container-big{
-    min-height: 500px;
+    
     width: 900px;
-    background-color: green;
 }
 
 /* container footer */
@@ -115,12 +113,10 @@ section{
 
 .col1{
     width: 65%;
-    background-color: blue;
 }
 
 .col2{
     width: 35%;
-    background-color:pink;
 }
 
 /* color */
@@ -166,6 +162,7 @@ section{
     padding-right: 15px;
     background-color: pink;
 }
+
 
 .logo{
     margin-top: 15px;
@@ -216,7 +213,7 @@ h1{
 
  .btn.big{
     font-size: 1rem;
-    padding: 10px;
+    padding: 12px;
 }
 
 .btn.big.dark{
@@ -229,3 +226,55 @@ h1{
     display: inline-block;
     font-size: 1rem;
 }
+
+.col2 > h2{
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 40px;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+.col2 .paragraph-col2{
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.container-big > h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.container-big > p {
+    text-align: center;
+    font-size: 1 rem;
+    margin: 30px 20px 0 20px;
+}
+
+.text-stars{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.btn-scarica > .btn{
+    margin: 30px 0;
+    padding: 15px;
+    font-size: 1.25rem;
+    opacity: 0.5;
+    background-color: #3161E0;
+    border: 1px solid #3161E0;
+    color: white; 
+}
+
+.big-img{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.f-col > h4{
+    font-size: 1.5rem;
+} 
