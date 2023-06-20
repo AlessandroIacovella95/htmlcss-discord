@@ -245,6 +245,12 @@ a{
     background-size: cover;
 }
 
+/* img */
+.big-img{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* title */
 h1{
     font-size: 3rem;
