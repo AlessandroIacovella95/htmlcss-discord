@@ -140,6 +140,22 @@ section{
     width: 25%;
 }
 
+.info > span{
+    color: white;
+    margin-left: 10px;
+}
+
+.flag{
+    width: 25px;
+    margin-left:15px;
+}
+
+.social-icon > .fa-brands{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 15px;
+}
+
 /* logo bottom footer */
 
 .logo-footer{
@@ -150,13 +166,20 @@ section{
 .botton-footer{
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
+.logo-footer > .logo{
+    margin: 15px 0;
+    padding: 14px 0;
+}
+
+/* logo disocrd */
 
 .logo{
     margin-top: 15px;
 }
+
+/* liste unorder */
 
 ul{
     list-style: none;
@@ -173,6 +196,8 @@ a{
     text-decoration: none;
 }
 
+/* button class */
+
 .btn{
     border-radius: 20px;
     margin: 20px 15px;
@@ -182,26 +207,7 @@ a{
     font-weight: bolder;
 }
 
-.bg-img{
-    background-image: url(../img/jumbo.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-h1{
-    font-size: 3rem;
-    text-align: center;
-    margin: 15px 0;
-}
-
-.paragraph-primary{
-    text-align: center;
-    margin: 15px 0;
-    line-height: 25px;
-}
-
- .btn.big{
+.btn.big{
     font-size: 1rem;
     padding: 12px;
 }
@@ -210,44 +216,6 @@ h1{
     background-color: #23272A;
     color: white;
     border: none;
-}
-
-.arrow{
-    display: inline-block;
-    font-size: 1rem;
-}
-
-.col2 > h2{
-    text-align: left;
-    font-size: 2.5rem;
-    line-height: 40px;
-    margin-top: 22px;
-    margin-left: 15px;
-}
-
-.col2 .paragraph-col2{
-    text-align: left;
-    font-size: 0.8rem;
-    margin-top: 20px;
-    line-height: 20px;
-    margin-left: 15px;
-}
-
-.container-big > h2{
-    text-align: center;
-    font-size: 2.5rem;
-    margin-top: 30px;
-}
-
-.container-big > p {
-    text-align: center;
-    font-size: 1 rem;
-    margin: 30px 20px 0 20px;
-}
-
-.text-stars{
-    text-align: center;
-    font-size: 2.2rem;
 }
 
 .btn-scarica > .btn{
@@ -260,9 +228,43 @@ h1{
     color: white; 
 }
 
-.big-img{
-    margin-bottom: 0;
-    margin-top: 0;
+.botton-footer > .btn{
+    background-color:#738ADC; 
+    color: white;
+    border: 1px solid #738ADC;
+    padding: 10px 10px;
+    line-height: 10px;
+    opacity: 0.8;
+}
+ 
+/* background image jumbo */
+
+.bg-img{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* title */
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.container-big > h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.col2 > h2{
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 40px;
+    margin-top: 22px;
+    margin-left: 15px;
 }
 
 .f-col > h4{
@@ -272,41 +274,46 @@ h1{
     color: #738ADC;
 } 
 
-.flag{
-    width: 25px;
-    margin-left:15px;
+h5{
+    color:#738ADC;
+    font-size: 1.2rem;
 }
 
-.info > span{
-    color: white;
-    margin-left: 10px;
+/* paragraph */
+
+.paragraph-primary{
+    text-align: center;
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+.col2 .paragraph-col2{
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.container-big > p {
+    text-align: center;
+    font-size: 1 rem;
+    margin: 30px 20px 0 20px;
+}
+
+/* arrow */
+
+.arrow{
+    display: inline-block;
+    font-size: 1rem;
 }
 
 .down-arrow{
     font-size: 1rem;
 }
 
-.social-icon > .fa-brands{
-    font-size: 1.5rem;
-    color: white;
-    margin: 0 15px;
-}
-
-h5{
-    color:#738ADC;
-    font-size: 1.2rem;
-}
-
-.logo-footer > .logo{
-    margin: 15px 0;
-    padding: 14px 0;
-}
-
-.botton-footer > .btn{
-    background-color:#738ADC; 
-    color: white;
-    border: 1px solid #738ADC;
-    padding: 10px 10px;
-    line-height: 10px;
-    opacity: 0.8;
+/* textd ecoration stars */
+.text-stars{
+    text-align: center;
+    font-size: 2.2rem;
 }
