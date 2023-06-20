@@ -44,7 +44,7 @@ header{
 }
 
 footer{
-    background-color:darkslateblue;
+    background-color:#23272A;
     height: 100%;
     width: 100%;
     min-width: 1000px;
@@ -132,16 +132,12 @@ section{
 /* column footer */
 
 .f-col{
-    height:400px;
     width: 300px;
-    background-color: pink;
     margin-top: 20px;
 }
 
 .f-col2{
-    height: 400px;
     width:600px ;
-    background-color: lightskyblue;
     margin-top: 20px;
 }
 
@@ -277,4 +273,32 @@ h1{
 
 .f-col > h4{
     font-size: 1.5rem;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #738ADC;
 } 
+
+.flag{
+    width: 25px;
+    margin-left:15px;
+}
+
+.info > span{
+    color: white;
+    margin-left: 10px;
+}
+
+.down-arrow{
+    font-size: 1rem;
+}
+
+.social-icon > .fa-brands{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 15px;
+}
+
+h5{
+    color:#738ADC;
+    font-size: 1.2rem;
+}
