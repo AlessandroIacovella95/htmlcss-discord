@@ -1,5 +1,7 @@
 /* generics */
-
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -35,8 +37,9 @@ img{
 header{
     width:100%;
     min-width: 1000px;
-    background-color: aqua;
+    background-color: #3161E0;
     min-height: 80px;
+    color: white;
 }
 
 footer{
@@ -65,7 +68,6 @@ section{
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
-    background-color: goldenrod;
 }
 
 .container-small{
@@ -166,4 +168,27 @@ section{
     padding-left: 15px;
     padding-right: 15px;
     background-color: pink;
+}
+
+i{
+    padding: 5px 0;
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+li{
+    padding: 10px 15px;  
+}
+
+.btn{
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid white;
+    color: black;
+    font-weight: bolder;
 }
