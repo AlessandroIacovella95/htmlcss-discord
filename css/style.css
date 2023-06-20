@@ -1,0 +1,169 @@
+/* generics */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* utils */
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+header{
+    width:100%;
+    min-width: 1000px;
+    background-color: aqua;
+    min-height: 80px;
+}
+
+footer{
+    background-color:darkslateblue;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+}
+
+/* sezioni  */
+
+section{
+    min-height: 400px;
+    min-width:1000px;   
+}
+
+.big-section{
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+/* container */
+
+.container{
+    min-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    background-color: goldenrod;
+}
+
+.container-small{
+    height: 200px;
+    width: 600px;
+    padding: 0 15px;
+    background-color: pink;
+}
+
+.container-normal{
+    height: 350px;
+    width: 900px;
+}
+
+.container-big{
+    height: 500px;
+    width: 900px;
+    background-color: green;
+}
+
+/* container footer */
+
+.container-footer-top{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.container-footer-bottom{
+    min-height: 100px;
+    min-width: 1000px;
+    border-top: 1px solid white;  
+}
+
+.container-s-f{
+    min-height: 60px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    margin-top: 15px;
+}
+
+/* column main section */
+
+.col1{
+    height: 100%;
+    width: 65%;
+    background-color: blue;
+}
+
+.col2{
+    height: 100%;
+    width: 35%;
+    background-color:pink;
+}
+
+/* color */
+
+.bg-color{
+   background-color: blue; 
+}
+
+.color{
+    background-color: lightgray;
+}
+
+/* column footer */
+
+.f-col{
+    height:400px;
+    width: 300px;
+    background-color: pink;
+    margin-top: 20px;
+}
+
+.f-col2{
+    height: 400px;
+    width:600px ;
+    background-color: lightskyblue;
+    margin-top: 20px;
+}
+
+.colu1, .colu2, .colu3, .colu4{
+    width: 25%;
+}
+
+/* logo bottom footer */
+
+.logo-footer{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: pink;
+}
+
+.botton-footer{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: pink;
+}
