@@ -52,11 +52,15 @@ footer{
 /* sezioni  */
 
 section{
-    min-width:1000px;  
+    min-width:1000px;
 }
 
 .big-section{
     min-width: 1000px;
+}
+
+.main-section{
+    padding: 5.25rem;
 }
 
 /* container */
@@ -69,7 +73,7 @@ section{
 }
 
 .container-small{
-    min-height: 200px;
+    min-height: 350px;
     width: 600px;
     padding: 0 15px;
     color: white;
@@ -246,17 +250,15 @@ a{
 }
 
 .wave{
-    background-image: url("../img/wave-reverse.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100px;
-    background-position: bottom;
+    color: lightgrey;
+    display: block;
+    
 }
 
 .wave-reverse{
-    background-image: url("../img/wave-.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100px;
-    background-position: bottom;
+    color: lightgray;
+    display: block;
+    transform: rotate(180deg);
 }
 
 
