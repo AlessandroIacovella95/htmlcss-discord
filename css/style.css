@@ -239,11 +239,26 @@ a{
 /* background image jumbo */
 
 .bg-img{
-    background-image: url(../img/jumbo.png);
+    background-image: url("../img/jumbo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.wave{
+    background-image: url("../img/wave-reverse.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+    background-position: bottom;
+}
+
+.wave-reverse{
+    background-image: url("../img/wave-.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+    background-position: bottom;
+}
+
 
 /* img */
 .big-img{
